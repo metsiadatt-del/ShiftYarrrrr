@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eef1f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1220" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-title" content="ShiftYar">
+  <meta name="description" content="ShiftYar؛ دفتر منظم شیفت‌ها، کارکرد و برنامه‌ریزی پرسنل داروخانه">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>ShiftYar</title>
+  <script>try{const p=localStorage.getItem('shiftyar-theme');document.documentElement.dataset.theme=p==='dark'||p!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}</script>
+  <link rel="icon" href="favicon.ico?v=25" type="image/x-icon" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="icons/favicon-32.png?v=25" type="image/png" sizes="32x32">
+  <link rel="icon" href="icons/favicon-16.png?v=25" type="image/png" sizes="16x16">
+  <link rel="icon" href="icons/icon-192.png?v=25" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png?v=25">
+  <link rel="manifest" href="manifest.webmanifest?v=25">
+  <link rel="preload" href="assets/vazirmatn-arabic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/vazirmatn-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=25">
+  <script src="boot.js?v=25" defer></script>
+  <script src="app.bundle.js?v=25" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">رفتن به محتوای اصلی</a>
+  <div id="app"><section id="startup" class="startup" role="status"><h1>ShiftYar</h1><p id="startup-message">در حال آماده‌سازی برنامه…</p><p id="startup-help">اگر این پیام باقی ماند، فایل ZIP را کامل استخراج کنید و مطمئن شوید فایل‌های برنامه کنار index.html قرار دارند.</p><button type="button" id="startup-reload">بارگذاری دوباره</button></section></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <dialog id="submodal" aria-labelledby="submodal-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <section id="print-area" dir="rtl"></section>
+  <noscript>برای استفاده از ShiftYar، جاوااسکریپت مرورگر را فعال کنید.</noscript>
+</body>
+</html>
